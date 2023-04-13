@@ -55,9 +55,8 @@ class CurrentViewController: UIViewController, CLLocationManagerDelegate,UIColle
       }
       
       override func viewDidAppear(_ animated: Bool) {
+          
           navigationController?.navigationBar.tintColor = UIColor.black
-         
-         
       }
       
   
